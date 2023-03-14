@@ -366,20 +366,9 @@ display: none;
 
 setwd(&quot;~/Documents/suavizacion&quot;)
 
-library(forecast)</code></pre>
-<pre><code>## Registered S3 method overwritten by &#39;quantmod&#39;:
-##   method            from
-##   as.zoo.data.frame zoo</code></pre>
-<pre class="r"><code>library(tidyverse)</code></pre>
-<pre><code>## ── Attaching packages ─────────────────────────────────────── tidyverse 1.3.1 ──</code></pre>
-<pre><code>## ✓ ggplot2 3.3.5     ✓ purrr   0.3.4
-## ✓ tibble  3.1.6     ✓ dplyr   1.0.7
-## ✓ tidyr   1.1.4     ✓ stringr 1.4.0
-## ✓ readr   2.1.1     ✓ forcats 0.5.1</code></pre>
-<pre><code>## ── Conflicts ────────────────────────────────────────── tidyverse_conflicts() ──
-## x dplyr::filter() masks stats::filter()
-## x dplyr::lag()    masks stats::lag()</code></pre>
-<pre class="r"><code>library(readxl)</code></pre>
+library(forecast)
+library(tidyverse)
+library(readxl)</code></pre>
 <p>Vamos analizar las ventas de coca-cola, netflix y walmart</p>
 <pre class="r"><code>ko &lt;- read_excel(&quot;coca.xlsx&quot;)
 wal &lt;- read_excel(&quot;walmart.xlsx&quot;)
